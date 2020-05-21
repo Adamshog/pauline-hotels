@@ -530,6 +530,8 @@ ul,li{
 
 .list-style-two{
 	position:relative;
+	margin: 70px;
+	margin-left: 100px;
 }
 
 .list-style-two li{
@@ -539,6 +541,8 @@ ul,li{
 	color: #797979;
 	font-weight:400;
 	margin-bottom: 14px;
+	text-align: justify;
+	
 }
 
 /*=== List Style Three ===*/
@@ -3313,6 +3317,23 @@ img{
 
 /*Content Column*/
 
+.more-info{
+	padding: 60px;
+	border-style: groove;
+	margin: 35px;
+	height: auto;
+}
+
+.top-100{
+	margin: 30px;
+	color: burlywood;
+}
+.top-100-paragraph{
+	color: chartreuse;
+}
+#story-h1{
+	align-items: center;
+}
 .fluid-section-one .content-column{
 	position: relative;
     width: 60%;
@@ -4108,6 +4129,20 @@ img{
 
 .fact-counter{
 	position:relative;
+	
+}
+#top-100{
+	text-align: center;
+}
+.image{
+	margin-left: 40px;
+}
+.image h3{
+	color: #fd7e14;
+	text-align: center;
+}
+.act-counter div{
+	margin: 50px;
 }
 
 .fact-counter .column{
@@ -4117,6 +4152,7 @@ img{
 
 .fact-counter .column .inner{
 	position:relative;
+	
 }
 
 .fact-counter .column .inner .content{
@@ -5359,7 +5395,7 @@ img{
 /*** 
 
 ====================================================================
-	Services Page Section
+	Services Page Section background-color:#272a2c;
 ====================================================================
 
 ***/
@@ -5448,7 +5484,14 @@ img{
 	line-height:1.8em;
 	margin-bottom:20px;
 }
-
+.two-column{
+	border-style: groove;
+	padding: 1em;
+	width: 700px;
+}
+.inner-columns{
+	padding: 40px;
+}
 .services-detail .inner-box .text .two-column{
 	position:relative;
 	margin-top:40px;
@@ -5487,7 +5530,9 @@ img{
 .services-detail .inner-box .text .two-column .content-column{
 	position:relative;
 }
-
+.content h2{
+	color: white;
+}
 .services-detail .inner-box .text .two-column .content-column .inner-column{
 	position:relative;
 	padding-left:30px;
